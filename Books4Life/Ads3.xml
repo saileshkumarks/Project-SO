@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/AdvertisementImages/Skyo.png</ImageUrl>
+    <NavigateUrl>http://www.skyo.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>50</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/AdvertisementImages/Daedalus.png</ImageUrl>
+    <NavigateUrl>http://www.daedalusbooks.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>40</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/AdvertisementImages/BookMooch.png</ImageUrl>
+    <NavigateUrl>http://bookmooch.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>30</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/AdvertisementImages/BetterWorld.jpg</ImageUrl>
+    <NavigateUrl>http://www.betterworldbooks.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>20</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+
+  <Ad>
+    <ImageUrl>~/images/AdvertisementImages/Powells.png</ImageUrl>
+    <NavigateUrl>http://www.powells.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>10</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+</Advertisements>

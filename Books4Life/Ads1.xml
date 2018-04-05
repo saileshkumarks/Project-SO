@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Advertisements>
+  <Ad>
+    <ImageUrl>~/images/AdvertisementImages/MagersAndQuinn.jpg</ImageUrl>
+    <NavigateUrl>http://www.magersandquinn.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>150</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+  
+  <Ad>
+    <ImageUrl>~/images/AdvertisementImages/BookRenter.jpg</ImageUrl>
+    <NavigateUrl>https://www.bookrenter.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>140</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+
+<Ad>
+    <ImageUrl>~/images/AdvertisementImages/BooksAMillion.png</ImageUrl>
+    <NavigateUrl>http://www.booksamillion.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>130</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+
+<Ad>
+    <ImageUrl>~/images/AdvertisementImages/PaperbackSwap.jpg</ImageUrl>
+    <NavigateUrl>http://www.paperbackswap.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>120</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+
+<Ad>
+    <ImageUrl>~/images/AdvertisementImages/Biblio.png</ImageUrl>
+    <NavigateUrl>http://www.biblio.com/</NavigateUrl>
+    <AlternateText>AbeBooks.com</AlternateText>
+    <Impressions>110</Impressions>
+    <Keyword>Books Only</Keyword>
+  </Ad>
+</Advertisements>

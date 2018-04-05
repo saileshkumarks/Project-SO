@@ -1,0 +1,78 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="siteMaster.master.cs" Inherits="siteMaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>    
+    <link rel="stylesheet" href="ultraBusStyles.css" />
+    <script type="text/javascript" src="javascript.js"></script>
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="sailesh, ankur, sanif, krishna, chandu" />
+
+    <asp:ContentPlaceHolder ID="MainHead" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+
+    <form id="form1" runat="server">
+
+        <div>
+
+            <div>
+                <header>
+
+                    <hgroup>
+                        <h1>UltraBus.com</h1>
+                        <h3>The #1 everyday express bus service in TEXAS!!!</h3>
+                    </hgroup>
+
+                    <div id="contactHelp">
+                        <ul class="removeBullet">
+                            <li>Have Questions ?</li>
+                            <li>CALL us at: +1 800-ULTRABUS</li>
+                            <li>E-mail us: help@ultrabus.com</li>
+                        </ul>
+                    </div>
+                </header>
+
+                <nav id="menuLinkBar">
+                    <ul>
+                        <li><a href="faq.aspx">FAQ</a></li>
+                        <li><a href="contactUs.aspx">CONTACT US</a></li>
+                        <li>
+                            <asp:LinkButton ID="linkBtnYourAccount" Text="YOUR ACCOUNT" runat="server" /></li>
+
+                        
+                        <%--<li><asp:LinkButton ID="linkBtnWhatYouSold" Text="TICKETS CART" runat="server" /></li>--%>
+
+                        <li>
+                            <asp:LinkButton ID="linkBtnLogin" Text="LOGIN/SIGNUP" runat="server" OnClick="linkBtnLogin_Click" /></li>
+                        <li>
+                            <asp:LinkButton ID="linkBtnLogout" Text="LOGOUT" runat="server" OnClick="linkBtnLogout_Click" /></li>
+
+
+                        <li>
+                            <asp:Label runat="server" ID="lblCustomerName" ></asp:Label></li>
+                        <li>
+                            <asp:Label runat="server" ID="lblWelcomeNote" ></asp:Label></li>
+                    </ul>
+                </nav>
+            </div>
+
+
+
+            <section>
+                <asp:ContentPlaceHolder ID="MainContentPlaceHolder" runat="server">
+                    <p>Master Page</p>
+                </asp:ContentPlaceHolder>
+            </section>
+        </div>
+
+    </form>
+</body>
+</html>

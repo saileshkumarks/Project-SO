@@ -1,0 +1,395 @@
+﻿@font-face {
+    font-family: 'titilliumregular';
+    src: url('FontFace/titillium/titillium-regular-webfont.eot');
+    src: url('FontFace/titillium/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FontFace/titillium/titillium-regular-webfont.woff2') format('woff2'),
+         url('FontFace/titillium/titillium-regular-webfont.woff') format('woff'),
+         url('FontFace/titillium/titillium-regular-webfont.ttf') format('truetype'),
+         url('FontFace/titillium/titillium-regular-webfont.svg#titilliumregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'condimentregular';
+    src: url('FontFace/condiment/condiment-regular-webfont.eot');
+    src: url('FontFace/condiment/condiment-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FontFace/condiment/condiment-regular-webfont.woff2') format('woff2'),
+         url('FontFace/condiment/condiment-regular-webfont.woff') format('woff'),
+         url('FontFace/condiment/condiment-regular-webfont.ttf') format('truetype'),
+         url('FontFace/condiment/condiment-regular-webfont.svg#condimentregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'feliparegular';
+    src: url('FontFace/felipa/felipa-regular-webfont.eot');
+    src: url('FontFace/felipa/felipa-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('FontFace/felipa/felipa-regular-webfont.woff2') format('woff2'),
+         url('FontFace/felipa/felipa-regular-webfont.woff') format('woff'),
+         url('FontFace/felipa/felipa-regular-webfont.ttf') format('truetype'),
+         url('FontFace/felipa/felipa-regular-webfont.svg#feliparegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body
+{
+font-family: titilliumregular, soho gothic pro, arial, helvetica, sans-serif;
+background-color: black;
+margin: 0;
+}
+
+header
+{
+background-color: white;
+color: black;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+width: 100%;
+}
+
+hgroup
+{
+background-color: white;
+font-family: Calibri;
+width: 70%;
+float: left;
+padding-left:1em;
+}
+
+hgroup h1
+{
+    font-family: condimentregular, soho gothic pro, arial, helvetica, sans-serif;
+    font-size: 41px;
+    padding-bottom:0;
+    margin-bottom:0;
+}
+
+hgroup h3
+{
+    font-family: feliparegular, soho gothic pro, arial, helvetica, sans-serif;
+    font-size:23px;
+    padding-bottom:0;
+    margin-top:0;
+}
+
+div contactHelp
+{
+width: 30%;
+float: left;
+}
+
+.removeBullet
+{
+list-style-type: none;
+}
+
+li
+{
+    font-size:18px;
+}
+
+nav
+{
+background-color: #383838 ;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+padding: 10px;
+width: auto;
+}
+
+.HeaderLine
+{
+background-color: #383838 ;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+padding: 10px;
+width: auto;
+color:white;
+}
+
+.fixheader{
+    width : 100%;
+    position : fixed;
+}
+.showbody{
+    z-index:1000;
+    padding-top: 172px;
+}
+
+nav ul
+{
+list-style-type: none;
+margin: 0;
+margin-left: auto;
+margin-right: auto;
+width: 80%;
+}
+
+nav li
+{
+float: left;
+padding-right: 3em;
+}
+
+a
+{
+text-decoration: none;
+color: white;
+}
+
+a:link
+{
+color: white;
+text-decoration: none;
+}
+
+a:hover
+{
+color: white;
+text-decoration: underline;
+}
+
+section
+{
+background-color: #888888 ;
+color: white;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+padding: 10px;
+width: 80%;
+text-align: center;
+}
+
+#ISBN
+{
+padding: 5px;
+border-color: lightgrey;
+}
+
+#ISBN_submit_button
+{
+padding: 5px;
+border-color: lightgrey;
+}
+
+#ToolTip_00
+{
+font-size: small;
+}
+
+#ToolTip_01
+{
+background-color:orangered;
+padding: 8px 4px 10px 10px;
+}
+
+#click_here
+{
+text-decoration: underline;
+color: blue;
+}
+
+.finance
+{
+height: 50px;
+width: 100px;
+}
+
+table
+{
+width: 75%;
+margin-left: auto;
+margin-right: auto;
+}
+
+.bill
+{
+color: green;
+background-color: white;
+}
+
+.rowDefault
+{
+background-color: white;
+color: black;
+}
+
+.cost
+{
+color: white;
+background-color: red;
+}
+
+.offers
+{
+color: green;
+font-family: 'Copperplate Gothic', helvetica;
+}
+
+#imgVisa, #imgPayPal
+{
+padding-right: 5px;
+}
+
+.faqSection
+{
+background-color: #888888 ;
+color: white;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+padding: 10px;
+width: 80%;
+text-align: left;
+}
+
+#faqQuestions, #faqAnswers, #faqAns
+{
+padding-left: 2em;
+}
+
+.faqAns
+{
+padding-left: 2em;
+}
+
+.AnswerFAQ
+{
+padding-left: 2em;
+}
+
+ul.AnswerFAQ
+{
+padding-left: 4em;
+}
+
+.questionFAQ
+{
+color:black;
+}
+
+ .faqTitleUnderline
+{
+border-bottom: 2px solid white;
+color:black;
+}
+
+.scrollToTop{
+	width:100px; 
+	height:30px;
+	padding:10px; 
+	text-align:center; 
+	background: none;
+	font-weight: bold;
+	color: white;
+	text-decoration: none;
+	position:fixed;
+	bottom:1em;
+	right:3px;
+	display:none;
+    font-family: 'Trebuchet MS', helvetica;
+}
+.scrollToTop:hover{
+	text-decoration:none;
+    color:#383838;
+}
+
+ #contactUsSection
+{
+background-color: white;
+color: black;
+margin-left: auto;
+margin-right: auto;
+overflow:hidden;
+width:60%;
+}
+
+.hgroupSmallBanner
+{
+    color:black;
+    width:40%;
+    background-color:white;
+    text-align: left;
+}
+
+#smallBannerContactHelp
+{
+width: 55%;
+float: left;
+background-color:white;
+color:black;
+text-align: right;
+}
+
+#contactsSection
+{
+background-color: white;
+color: black;
+margin-left: auto;
+margin-right: auto;
+overflow:hidden;
+padding: 10px;
+width:60%;
+text-align:center;
+}
+
+#contactDetails
+{
+text-align:left;
+}
+
+.broadBlack
+{
+color:Black;
+}
+
+td
+{
+/*background-color:#888888;*/
+text-align:left;
+}
+
+.mandatoryRed
+{
+color:red;
+}
+
+#tblLogin td
+{
+    background-color:#464141;
+}
+
+#tblRegister td
+{
+    
+}
+
+.loginCredValidation
+{
+    color:darkorange;
+}
+
+.validationErrors
+{
+color:red;
+}
+
+.whatYouSoldUserDetails
+{
+    float:left;
+margin-left: auto;
+margin-right: auto;
+overflow: hidden;
+padding: 10px;
+width: auto;
+}
